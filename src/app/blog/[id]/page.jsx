@@ -1,8 +1,6 @@
 import React from "react";
 
 const page = ({ params }) => {
-  console.log(params.id);
-
   const { title, detail } = blogs.find((blog) => blog.id === params.id);
 
   return (

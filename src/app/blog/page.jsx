@@ -45,6 +45,12 @@ const page = () => {
         >
           New blogs
         </Link>
+        <Link
+          href={"/blog/photos"}
+          className="border w-24 rounded-md bg-slate-400 text-center text-white p-1 mt-2 hover:bg-slate-500"
+        >
+          photos
+        </Link>
       </div>
 
       <div className="mx-56">
